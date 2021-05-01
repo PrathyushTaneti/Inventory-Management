@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href = "styles.css" >
+    <title>MotorOctave</title>
+	<!-- Google Font: Source Sans Pro -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="../../plugins/fontawesome-free/css/all.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="../../dist/css/adminlte.min.css">
+	
+</head>
+<body class="hold-transition sidebar-mini">
+<center>
+<br><br>
+    <h4 class = "c1"><kbd>Update Quantity of a Product</kbd></h4>
+	<br><br>
+
+    <form method="post" action = "/update" >
+        <label>Engine ID : </label> &nbsp;
+        <input type ="text" placeholder="Enter Engine ID" name = "pid"><br><br>
+
+        <label>New Stock: </label> &nbsp;
+        <input type = "text" placeholder="Enter new Stock" name ="stock" ><br><br>
+
+        <button id="update" class="btn btn-warning">Update</button>
+    
+  
+    </form>
+    <a href = "/" class = "c2" >Home Page</a>
+    </center>
+</body>
+</html>
